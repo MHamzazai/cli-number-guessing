@@ -1,7 +1,7 @@
 {
   "name": "@mhamzazai/cli-number-guessing",
-  "version": "1.0.1",
-  "description": "A simple number guessing game with, Typescript Node.js and Inquirer ",
+  "version": "1.0.2",
+  "description": "A number guessing game based on cli,with Typescript Node.js and Inquirer ",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
