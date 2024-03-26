@@ -9,6 +9,8 @@ import inquirer from "inquirer";
 
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 
+console.log("Welcome To the Cli Based  Number Guessing Game");
+
 const answers = await inquirer.prompt([
     {
     message: "please guess a number between 1-6 = ",
@@ -19,5 +21,5 @@ const answers = await inquirer.prompt([
 if (answers.yourGuessedNumber === randomNumber){
     console.log("Congratulations! you guessed a right number.");
 }else {
-    console.log("Oh! you guessed a wrong number.");
+    console.log(`Oh! you guessed a wrong number."TRY AGAIN!"`);
 }
